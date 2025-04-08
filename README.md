@@ -14,7 +14,7 @@ This project builds upon the Student Performance Dataset sourced from Kaggle, wh
 
 Initially, a Random Forest classifier was implemented to predict overall pass/fail status. However, high misclassification rates led to a refined approach—developing separate predictive models for each subject. This approach improves interpretability and allows for targeted interventions for at-risk students in specific subjects.  
 
-The Student Performance Predictive Model, developed in the accompanying Jupyter Notebook (`StudentPerformance_PredictiveModel.ipynb`), demonstrates an accuracy of approximately 62% for each subject. The classification results highlight key features influencing student success and provide a foundation for improving educational strategies.  
+The Student Performance Predictive Model, developed in a Google Collab Notebook, demonstrates an accuracy of approximately 62% for each subject. The classification results highlight key features influencing student success and provide a foundation for improving educational strategies.  
 
 # Methods  
 
