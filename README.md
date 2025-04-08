@@ -75,8 +75,9 @@ Enhancements for future iterations of the project include:
 
 # Contributions  
 
-Natalie Huang - Created Model for Testing, Aided in Result and Conclusion
-Sneha Varghese - Created Model for Tetsing, Aided in Model Development and Future Work
+**Natalie Huang** - Created Model for Testing, Aided in Result and Conclusion
+
+**Sneha Varghese** - Created Model for Tetsing, Aided in Model Development and Future Work
 
 # References  
 
