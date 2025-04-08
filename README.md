@@ -4,23 +4,23 @@
 
 # Abstract  
 
-The **Student Performance Prediction** project aims to classify student performance in writing, reading, and math based on demographic and academic factors. Initially, the project sought to determine overall pass/fail status, but it evolved to predict performance in each subject separately for a more detailed analysis. Using the **Student Performance Dataset** from Kaggle, this study explores the effectiveness of machine learning in educational prediction tasks, leveraging various classification models to identify key predictors of student success.  
+The Student Performance Prediction project aims to classify student performance in writing, reading, and math based on demographic and academic factors. Initially, the project sought to determine overall pass/fail status, but it evolved to predict performance in each subject separately for a more detailed analysis. Using the Student Performance Dataset from Kaggle, this study explores the effectiveness of machine learning in educational prediction tasks, leveraging various classification models to identify key predictors of student success.  
 
 # Introduction  
 
 Understanding the factors that influence student performance is critical for designing effective educational interventions. While standardized test scores offer a measure of academic proficiency, various demographic and socio-economic factors also play a role in shaping student outcomes. **Student Performance Prediction** applies machine learning techniques to analyze these factors and predict whether a student will pass or fail in writing, reading, and math.  
 
-This project builds upon the **Student Performance Dataset** sourced from Kaggle, which includes attributes such as gender, parental education level, lunch type, and test preparation course completion. Inspired by research from the **University of California, Irvine**, the project aims to uncover patterns that influence academic success and provide actionable insights to educators.  
+This project builds upon the Student Performance Dataset sourced from Kaggle, which includes attributes such as gender, parental education level, lunch type, and test preparation course completion. Inspired by research from the University of California, Irvine, the project aims to uncover patterns that influence academic success and provide actionable insights to educators.  
 
-Initially, a **Random Forest classifier** was implemented to predict overall pass/fail status. However, high misclassification rates led to a refined approach—developing separate predictive models for each subject. This approach improves interpretability and allows for targeted interventions for at-risk students in specific subjects.  
+Initially, a Random Forest classifier was implemented to predict overall pass/fail status. However, high misclassification rates led to a refined approach—developing separate predictive models for each subject. This approach improves interpretability and allows for targeted interventions for at-risk students in specific subjects.  
 
-The **Student Performance Predictive Model**, developed in the accompanying Jupyter Notebook (`StudentPerformance_PredictiveModel.ipynb`), demonstrates an accuracy of approximately **XX%** for each subject. The classification results highlight key features influencing student success and provide a foundation for improving educational strategies.  
+The Student Performance Predictive Model, developed in the accompanying Jupyter Notebook (`StudentPerformance_PredictiveModel.ipynb`), demonstrates an accuracy of approximately 62% for each subject. The classification results highlight key features influencing student success and provide a foundation for improving educational strategies.  
 
 # Methods  
 
 ## Data Collection and Cleaning  
 
-The dataset contains student performance data sourced from **Kaggle**, including key demographic and academic attributes. The preprocessing steps included:  
+The dataset contains student performance data sourced from Kaggle, including key demographic and academic attributes. The preprocessing steps included:  
 
 - Handling missing values and normalizing numerical features  
 - Splitting categorical variables into separate encoded columns  
@@ -39,7 +39,7 @@ The predictive model considers the following features:
 
 ## Model Development  
 
-The project utilizes **Random Forest classifiers** to predict student performance in writing, reading, and math. The dataset was split into **80% training and 20% testing**, with models trained separately for each subject to improve accuracy. Performance was assessed using:  
+The project utilizes Random Forest classifiers to predict student performance in writing, reading, and math. The dataset was split into **80% training and 20% testing**, with models trained separately for each subject to improve accuracy. Performance was assessed using:  
 
 - **Accuracy**  
 - **Precision, Recall, and F1-Score**  
@@ -47,7 +47,7 @@ The project utilizes **Random Forest classifiers** to predict student performanc
 
 # Results  
 
-The refined models achieved XX% accuracy on the test dataset, with notable differences in performance across subjects. Feature importance analysis revealed that test preparation course completion and parental education level had significant impacts on student success.  
+The refined models achieved 62% accuracy on the test dataset, with notable differences in performance across subjects. Feature importance analysis revealed that test preparation course completion and parental education level had significant impacts on student success.  
 
 The classification reports indicated that the model performed best in predicting reading scores, with strong precision and recall. However, math scores showed greater variability, likely due to broader disparities in student preparation and subject difficulty. The confusion matrix suggests that misclassification occurs most frequently between students on the borderline of passing or failing.  
 
@@ -59,7 +59,7 @@ The Student Performance Prediction project illustrates the potential of machine 
 
 ### Key findings include:  
 
-- Parental education and test preparation courses** play a crucial role in academic performance  
+- Parental education and test preparation courses play a crucial role in academic performance  
 - Math scores are more difficult to predict accurately compared to reading and writing  
 - Granular subject-specific models** outperform overall pass/fail classification  
 
@@ -75,7 +75,8 @@ Enhancements for future iterations of the project include:
 
 # Contributions  
 
-[List contributors here]  
+Natalie Huang - Created Model for Testing, Aided in Result and Conclusion
+Sneha Varghese - Created Model for Tetsing, Aided in Model Development and Future Work
 
 # References  
 
